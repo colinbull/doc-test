@@ -1,0 +1,42 @@
+{
+  "name": "hippo-documentation-scaffold",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Hippo documentation scaffold",
+  "author": "hippo-digital",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "heroku-postbuild": "gatsby build"
+  },
+  "resolutions": {
+    "source-map": "^0.8.0-beta.0"
+  },
+  "dependencies": {
+    "babel-plugin-styled-components": "^2.0.7",
+    "gatsby": "^4.10.1",
+    "gatsby-plugin-image": "^2.10.0",
+    "gatsby-plugin-sass": "^5.10.1",
+    "gatsby-plugin-sharp": "^4.10.1",
+    "gatsby-plugin-styled-components": "^5.19.0",
+    "gatsby-remark-classes": "^1.0.2",
+    "gatsby-remark-image-attributes": "^1.1.0",
+    "gatsby-remark-images": "^6.18.0",
+    "gatsby-source-filesystem": "^4.10.0",
+    "gatsby-transformer-remark": "^5.10.1",
+    "gatsby-transformer-sharp": "^4.10.0",
+    "include-media": "^1.4.10",
+    "normalize.css": "^8.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "sass": "^1.49.9",
+    "source-map": "^0.8.0-beta.0",
+    "styled-components": "^5.3.5"
+  }
+}
